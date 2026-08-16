@@ -233,7 +233,7 @@ section { position: relative; }
   border: 1px solid var(--gold);
   z-index: 0;
 }
-.about-photo img {
+.about-photo > img {
   position: relative;
   z-index: 1;
   width: 100%;
@@ -489,7 +489,7 @@ body.menu-open { overflow: hidden; }
   }
   .nav-links.open a { font-size: 0.85rem; }
   .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 50px; }
-  .about-photo img { height: 420px; }
+  .about-photo > img { height: 420px; }
   .service-grid { grid-template-columns: 1fr; }
   .gallery-grid { grid-template-columns: 1fr 1fr; }
   .g-tall { grid-row: span 1; }
